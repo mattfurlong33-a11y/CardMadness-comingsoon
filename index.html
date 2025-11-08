@@ -14,24 +14,23 @@
   <div class="absolute inset-0 bg-black/40"></div>
 
   <!-- Centered content -->
-  <div class="relative z-10 text-center text-white max-w-lg w-full px-6 flex flex-col items-center -mt-16 md:-mt-24">
+  <div class="relative z-10 text-center text-white w-[90%] max-w-md md:max-w-2xl px-6 sm:px-8 md:px-12 flex flex-col items-center -mt-12 md:-mt-20">
 
- <!-- Logo -->
- <img 
- src="Logo/img_6259_720.png" 
- alt="CardMadne$$ Logo" 
- class="w-48 md:w-56 mb-6 drop-shadow-2xl"
-/>
+    <!-- Logo -->
+    <img 
+      src="Logo/img_6259_720.png" 
+      alt="CardMadne$$ Logo" 
+      class="w-32 sm:w-40 md:w-56 mb-6 drop-shadow-2xl"
+    />
+
     <!-- Title -->
-    <h1 class="text-5xl font-extrabold mb-3">
-      <span class="text-white drop-shadow-lg">CardMadne<class="text-yellow-400 drop-shadow-lg">$$
-                                                         
-        </span>
-      
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-3 leading-tight">
+      <span class="text-white drop-shadow-lg">CardMadne</span>
+      <span class="text-yellow-400 drop-shadow-lg">$$</span>
     </h1>
 
-    <p class="text-2xl font-semibold text-gray-200 mb-2">Coming Soon</p>
-    <p class="text-gray-300 mb-8">
+    <p class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-200 mb-2">Coming Soon</p>
+    <p class="text-sm sm:text-base text-gray-300 mb-8 max-w-md">
       Be the first to know when we launch! Enter your email below to get notified.
     </p>
 
@@ -39,7 +38,7 @@
     <form 
       action="https://formsubmit.co/cardmadness33@gmail.com" 
       method="POST"
-      class="w-full max-w-md mx-auto flex flex-col gap-4 items-center"
+      class="w-full max-w-sm sm:max-w-md mx-auto flex flex-col gap-4 items-center"
     >
       <input type="hidden" name="_subject" value="New launch notification signup!" />
       <input type="hidden" name="_captcha" value="false" />
@@ -50,21 +49,20 @@
         name="email" 
         required
         placeholder="your.email@example.com"
-        class="w-full px-4 py-3 text-gray-800 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
+        class="w-full px-4 py-3 text-gray-800 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all text-sm sm:text-base"
       >
       <button 
         type="submit"
-        class="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
+        class="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg text-sm sm:text-base"
       >
         Notify Me
       </button>
     </form>
 
     <!-- Footer -->
-    <p class="mt-8 text-sm text-gray-300">
+    <p class="mt-8 text-xs sm:text-sm text-gray-300 max-w-md">
       We respect your privacy. Your email will only be used for launch notifications.
     </p>
   </div>
 </body>
 </html>
-
